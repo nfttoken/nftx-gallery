@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+out_functions
+out_publish
+**/*.test.*
+**/*.story.*
+yarn.lock
+.storybook
+storybook-static
+tailwind.config.js
