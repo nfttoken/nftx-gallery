@@ -26,11 +26,9 @@ const Header = () => {
     <header className="border-b-2 dark:border-gray-800 border-gray-100 dark:bg-gray-900 bg-white">
       <div className="bg-gradient-to-r from-orange-500 to-pink-500 text-gray-50">
         <div className="container mx-auto text-xs px-4 py-1 flex justify-between font-bold">
-          {useMessage('header.beta.text', {
-            version: process.env.appVersion,
-          })}
+          
           <a
-            href="https://nftx.canny.io/"
+            href="https://nftmall.canny.io/"
             className="ml-2 underline hover:no-underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,11 +39,11 @@ const Header = () => {
       </div>
       <div className="container mx-auto px-4 py-5 flex items-center">
         <nav className="flex">
-          <a href="https://nftx.org/" className="flex items-center mr-4">
+          <a href="http://www.nftmall.cloud/" className="flex items-center mr-4">
             <Logo />
           </a>
           <Button
-            href="https://app.nftx.org/"
+            href="http://app.nftmall.cloud/"
             kind={Kind.INVERT}
             className="hidden dark:text-white text-gray-800 sm:block mr-2"
           >
@@ -63,12 +61,12 @@ const Header = () => {
             kind={Kind.INVERT}
             className="hidden sm:block mr-2  dark:text-white text-gray-800"
             target="_blank"
-            href="https://discord.gg/SAZRt6m5Yw"
+            href="#"
           >
             <FormattedMessage id="header.menu.discord" />
           </Button>
           <Button
-            href="https://docs.nftx.org"
+            href="https://docs.nftmall.cloud"
             kind={Kind.INVERT}
             className="hidden sm:block mr-2 dark:text-white text-gray-800"
           >
@@ -94,7 +92,7 @@ const Header = () => {
               </span>
             </Button>
           </Link>
-          <Link href="https://app.nftx.org/" passHref={true}>
+          <Link href="https://app.nftmall.cloud/" passHref={true}>
             <Button className="ml-3" kind={Kind.PRIMARY}>
               {useMessage('home.cta.app')}
             </Button>
