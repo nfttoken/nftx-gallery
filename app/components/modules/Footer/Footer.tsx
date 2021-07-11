@@ -13,28 +13,28 @@ const Footer = () => {
                 <img
                   src="/images/logo_on_white.svg"
                   className="mx-auto md:pb-0 h-10 mr-2 block dark:hidden"
-                  alt="NFTX icon"
+                  alt="NFTmall icon"
                 />
                 <img
                   src="/images/nftx_on_white.svg"
                   className="mx-auto md:pb-0 h-5 block dark:hidden"
-                  alt="NFTX logo"
+                  alt="NFTmall logo"
                 />
                 <img
                   src="/images/logo_on_black.svg"
                   className="mx-auto md:pb-0 h-10 mr-2 dark:block hidden"
-                  alt="NFTX icon"
+                  alt="NFTmall icon"
                 />
                 <img
                   src="/images/nftx_on_black.svg"
                   className="mx-auto md:pb-0 h-5 dark:block hidden"
-                  alt="NFTX logo"
+                  alt="NFTmall logo"
                 />
               </a>
             </Link>
           </div>
           <div className="mt-4 flex flex-wrap content-center justify-center h-full  dark:text-white text-gray-800 text-bold">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScnaUGFuz6-iyLTCeLhcLcFfxAdpPhGzGfxDtET7qgBIJO_xg/viewform">
+            <Link href="#">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ const Footer = () => {
                 {useMessage('footer.link.request')}
               </a>
             </Link>
-            <Link href="https://twitter.com/NFTX_">
+            <Link href="#">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,7 +52,7 @@ const Footer = () => {
                 {useMessage('footer.link.twitter')}
               </a>
             </Link>
-            <Link href="https://github.com/NFTX-project">
+            <Link href="http://github.com/nfttoken/nftmall">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const Footer = () => {
                 {useMessage('footer.link.github')}
               </a>
             </Link>
-            <Link href="https://blog.nftx.org/">
+            <Link href="http://blog.nftmall.cloud/">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,25 +70,8 @@ const Footer = () => {
                 {useMessage('footer.link.blog')}
               </a>
             </Link>
-            <Link href="https://discord.com/invite/hytQVM5ZxR">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline ml-4"
-              >
-                {useMessage('footer.link.discord')}
-              </a>
-            </Link>
-            <Link href="https://forum.nftx.org/">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline ml-4"
-              >
-                {useMessage('footer.link.forum')}
-              </a>
-            </Link>
-            <Link href="https://client.aragon.org/#/nftx/">
+            
+            <Link href="https://client.aragon.org/#/nftmall/">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -96,16 +79,7 @@ const Footer = () => {
               >
                 {useMessage('footer.link.aragon')}
               </a>
-            </Link>
-            <Link href="https://status.nftx.org">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline ml-4"
-              >
-                {useMessage('footer.link.status')}
-              </a>
-            </Link>
+            
           </div>
         </div>
         <div className="md:text-right text-center pt-4 md:pt-0 text-sm">
