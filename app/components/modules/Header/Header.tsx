@@ -26,7 +26,9 @@ const Header = () => {
     <header className="border-b-2 dark:border-gray-800 border-gray-100 dark:bg-gray-900 bg-white">
       <div className="bg-gradient-to-r from-orange-500 to-pink-500 text-gray-50">
         <div className="container mx-auto text-xs px-4 py-1 flex justify-between font-bold">
-          
+           {useMessage('header.beta.text', {
+            version: process.env.appVersion,
+          })} 
           <a
             href="https://nftmall.canny.io/"
             className="ml-2 underline hover:no-underline"
