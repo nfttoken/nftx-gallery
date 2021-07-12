@@ -79,6 +79,7 @@ const Footer = () => {
               >
                 {useMessage('footer.link.aragon')}
               </a>
+            </Link>
             
           </div>
         </div>
